@@ -32,7 +32,7 @@ CREATE TABLE properties (
 );
 
 -- Reservations Database
-DROP TABLE IF EXISTS reservation CASCADE;
+DROP TABLE IF EXISTS reservations CASCADE;
 Create TABLE reservations (
   id SERIAL PRIMARY KEY NOT NULL,
   start_date DATE NOT NULL,
